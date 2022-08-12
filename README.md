@@ -1,6 +1,7 @@
 # dotfiles
+
 dotfiles (use stow to setup $HOME directory)
 
-cd dotfiles/home
-
-stow --target $HOME .
+clone dotfiles from $HOME
+cd dotfiles
+stow .
