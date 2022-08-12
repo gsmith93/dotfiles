@@ -1,5 +1,5 @@
 set tabstop=4 softtabstop=4
-set shiftwidth=6
+set shiftwidth=4
 set expandtab
 set smartindent
 
@@ -104,8 +104,8 @@ vim.cmd [[autocmd BufWritePre * lua vim.lsp.buf.formatting_sync()]]
 EOF
 
 " Telescope key bindings
-nnoremap <C-p> :lua require('telescope.builtin').git_files()<CR>
-nnoremap <Leader>ff :lua require('telescope.builtin').find_files()<CR>
+nnoremap <C-p> :lua require('telescope.builtin').find_files()<CR>
+nnoremap <Leader>gf :lua require('telescope.builtin').find_files()<CR>
 nnoremap <Leader>lg :lua require('telescope.builtin').live_grep()<CR>
 
 lua require("user")
