@@ -4,4 +4,4 @@ dotfiles (use stow to setup $HOME directory)
 
 clone dotfiles from $HOME
 cd dotfiles
-stow .
+stow */ # stows everything but ignores the readme.

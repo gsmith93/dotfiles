@@ -1,4 +1,5 @@
-require("nvim-lsp-installer").setup()
+require("mason").setup()
+require("mason-lspconfig").setup()
 
 local null_ls = require("null-ls")
 
@@ -117,6 +118,6 @@ cmp.setup({
 
 		{ name = "buffer" },
 		{ name = "path" },
-          { name = "nvim_lsp_signature_help" },
+        { name = "nvim_lsp_signature_help" },
 	},
 })

@@ -33,3 +33,5 @@ alias vi="nvim"
 
 # git for .dotfiles
 alias config="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

@@ -64,7 +64,6 @@ Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'ThePrimeagen/harpoon'
 
 " LSP
-Plug 'williamboman/nvim-lsp-installer'
 Plug 'neovim/nvim-lspconfig'
 
 Plug 'hrsh7th/cmp-nvim-lsp'
@@ -87,6 +86,12 @@ Plug 'rafamadriz/friendly-snippets'
 Plug 'jose-elias-alvarez/null-ls.nvim'
 Plug 'jose-elias-alvarez/nvim-lsp-ts-utils'
 
+" Debugger
+Plug 'mfussenegger/nvim-dap'
+
+" Mason
+Plug 'williamboman/mason.nvim',
+Plug 'williamboman/mason-lspconfig.nvim',
 call plug#end()
 
 
